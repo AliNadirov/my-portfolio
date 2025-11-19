@@ -1,0 +1,47 @@
+@use '../../styles/variables' as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $text-color;
+    white-space: nowrap;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+      font-weight: 500;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding: 20px 20px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 12px;
+    nav {
+      gap: 12px;
+    }
+  }
+}
