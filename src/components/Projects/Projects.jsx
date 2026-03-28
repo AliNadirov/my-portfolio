@@ -1,6 +1,6 @@
 import p1 from "../../assets/images/BudgetBee.png";
-import p2 from "../../assets/images/Product-Managment-System-Demo.png";
-import p3 from "../../assets/images/admin-dashboard.png";
+import p2 from "../../assets/images/admin-dashboard.png";
+import p3 from "../../assets/images/Product-Managment-System-Demo.png";
 import './Projects.scss';
 
 const Card = ({ img, title, text, reversed, link }) => (
