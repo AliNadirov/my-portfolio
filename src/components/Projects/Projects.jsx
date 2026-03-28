@@ -30,27 +30,25 @@ export default function Projects() {
         img={p1}
         title="Personal Finance Tracker"
         text="A responsive web app built to help users track expenses and visualize spending habits.
-        Designed and prototyped in Figma, then developed using modern front-end tools."
+              Designed and prototyped in Figma, then developed using modern front-end tools."
         link="https://personal-finance-tracker-1-project.netlify.app"
       />
       <Card
         img={p2}
-        title="Product Management System"
-        text="A full-featured CRUD web app for managing products efficiently.
-        Built with modern front-end technologies to handle product creation,
-        updates, and data visualization in a clean interface."
+        title="Admin Dashboard"
+        text="A modern admin dashboard built with React and Vite, featuring analytics,
+               category tracking, and a clean UI for managing data efficiently."
         reversed
-        link="https://product-management-system-00051.netlify.app"
+        link="https://react-admin-dashboard-2026.netlify.app/"
       />
       <Card
         img={p3}
-        title="Fake Post API"
-        text="A React-based interface that consumes a mock REST API to fetch, display and interact with posts.
-        Built to demonstrate asynchronous data-handling, list rendering and state management in a frontend app."
-        link="https://react-fake-postapi-050000.netlify.app"
+        title="Product Management System"
+        text="A full-featured CRUD web app for managing products efficiently.
+              Built with modern front-end technologies to handle product creation,
+              updates, and data visualization in a clean interface."
+        link="https://product-management-system-00051.netlify.app"
       />
     </section>
   );
 }
-
-
